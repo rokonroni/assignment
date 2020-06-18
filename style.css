@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  font-family: tahoma;
+}
+.fullsite {
+  width: 60%;
+  margin: auto;
+}
+.container {
+  width: 100%;
+}
+.mainmenu {
+  background: #0290ff;
+  padding: 10px;
+  height: 50px;
+}
+.menu {
+  font-size: 18px;
+  color: #ffffff;
+  border:1px solid #FFFFFF;
+  display: inline-block;
+  float: left;
+}
+.menu h2 {
+  margin: 0;
+  padding: 10px;
+}
+.menu:hover {
+  color: #000000;
+  background-color: #ffffff;
+}
+.name h1 {
+  margin: 0;
+  color: #ffffff;
+  padding: 5px;
+  display: inline-block;
+  width: 75%;
+  float: left;
+}
+.name {
+  text-align: center;
+}
+.fa-search {
+  color: #ffffff;
+  font-size: 20px;
+  float: left;
+  margin: 20px 10px;
+}
+.fa-shopping-cart {
+  color: #ffffff;
+  font-size: 20px;
+  float: right;
+  overflow: hidden;
+  margin: 20px 5px;
+}
+.icon {
+  display: flex;
+}
+.shopping {
+  background: #f1f1f1;
+  overflow: hidden;
+  width: 100%;
+}
+.shopping h1 {
+  margin: 0;
+  padding: 10px;
+}
+.mainarea {
+  width: 90%;
+  margin:auto;
+}
+.mainarea h2 {
+  margin: 0;
+}
+.imagearea {
+  padding: 30px 0;
+  overflow: hidden;
+}
+.image {
+  float: left;
+  min-height: 300px;
+  padding: 30px;
+}
+.imagedes p:nth-child(1) {
+  color: #000;
+}
+.head {
+  margin: 0;
+}
+.imagedes p:nth-child(5) {
+  margin-top: 10px;
+}
+label {
+  font-size: 20px;
+}
+select {
+  font-size: 20px;
+}
+button {
+  float: right;
+  padding: 10px;
+  font-size: 20px;
+  background: #ffffff;
+  border:2px solid #ad66d1;
+}
+.quent {
+  float: left;
+}
+.btn {
+  overflow: hidden;
+  margin-top: -18px;
+}
+button:hover {
+  background-color:#ad66d1;
+}
+.total {
+  overflow: hidden;
+  margin: 10px;
+  font-size: 18px;
+}
+.total .left {
+  float: left;
+}
+.total .right {
+  float: right;
+}
+.total p {
+  margin: 0;
+}
+.apply {
+  margin-top: 20px;
+}
+.checkbox input {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+.code input {
+  padding: 10px;
+  float: left;
+  font-size: 18px;
+  width: 80%;
+}
+.apply .applybtn {
+  margin-top: -10px;
+}
+
+
+
+
+
+
+
+.
