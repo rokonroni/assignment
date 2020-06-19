@@ -42,26 +42,40 @@ body {
 }
 .fa-search {
   color: #ffffff;
-  font-size: 20px;
+  font-size: 25px;
   float: left;
-  margin: 20px 10px;
+  margin: 15px 10px;
+}
+.fa-search:hover {
+  color: #000000;
 }
 .fa-shopping-cart {
   color: #ffffff;
-  font-size: 20px;
+  font-size: 25px;
   float: right;
   overflow: hidden;
-  margin: 20px 5px;
+  margin: 15px 5px;
+}
+.fa-shopping-cart:hover {
+  color: #000000;
 }
 .icon {
   display: flex;
+}
+.shopping .fa-arrow-left {
+  float: left;
+  font-size: 25px;
+  padding: 12px;
+}
+.shopping .fa-arrow-left:hover {
+  color: #ad66d1;
 }
 .shopping {
   background: #f1f1f1;
   overflow: hidden;
   width: 100%;
 }
-.shopping h1 {
+.shopping h2 {
   margin: 0;
   padding: 10px;
 }
@@ -96,22 +110,28 @@ label {
 select {
   font-size: 20px;
 }
-button {
-  float: right;
-  padding: 10px;
-  font-size: 20px;
-  background: #ffffff;
-  border:2px solid #ad66d1;
-}
 .quent {
   float: left;
 }
+.remove ,
+.apply {
+  float: right;
+  padding: 5px;
+  font-size: 20px;
+  background: #ffffff;
+  border:2px solid #ad66d1;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
 .btn {
   overflow: hidden;
-  margin-top: -18px;
+  margin-top: -8px;
 }
-button:hover {
+.remove:hover,
+.apply:hover {
   background-color:#ad66d1;
+  color: #ffffff;
 }
 .total {
   overflow: hidden;
@@ -127,8 +147,13 @@ button:hover {
 .total p {
   margin: 0;
 }
-.apply {
+.applyarea {
   margin-top: 20px;
+  overflow: hidden;
+}
+.apply {
+  margin-top: 8px;
+  padding: 8px;
 }
 .checkbox input {
   width: 20px;
@@ -141,10 +166,33 @@ button:hover {
   font-size: 18px;
   width: 80%;
 }
-.apply .applybtn {
-  margin-top: -10px;
+.checkoutarea {
+  margin-top: 20px;
 }
-
+.fa-lock {
+  color: #FFFFFF;
+  float: left;
+  position:absolute;
+  font-size: 25px;
+  margin-top: 8px;
+  margin-left: 220px;
+}
+.goto {
+  color: #FFFFFF;
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  border: 2px solid #ad66d1;
+  background: rgba(173, 102, 209,0.8)
+}
+.goto:hover {
+  background: #ad66d1
+}
+.help {
+  text-align: center;
+  margin: 5px;
+}
 
 
 
